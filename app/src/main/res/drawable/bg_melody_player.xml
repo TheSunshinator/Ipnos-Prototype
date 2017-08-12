@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android = "http://schemas.android.com/apk/res/android">
+
+  <item>
+    <shape android:shape="rectangle">
+        <gradient
+          android:startColor="#003366"
+          android:endColor="#0059b3"
+          android:angle="-270" />
+    </shape>
+  </item>
+  <item>
+    <bitmap
+      android:gravity = "fill_vertical"
+      android:src = "@drawable/bg_main"/>
+  </item>
+  <item
+    android:bottom = "86dp"
+    android:left = "128dp">
+    <bitmap
+      android:gravity = "bottom|center_horizontal"
+      android:src = "@drawable/bg_moon"/>
+  </item>
+  <item android:bottom = "56dp">
+    <bitmap
+      android:gravity = "bottom|center_horizontal"
+      android:src = "@drawable/bg_mountains"/>
+  </item>
+  <item>
+    <bitmap
+      android:gravity = "bottom|center_horizontal"
+      android:src = "@drawable/bg_bottom_menu"/>
+  </item>
+</layer-list>
