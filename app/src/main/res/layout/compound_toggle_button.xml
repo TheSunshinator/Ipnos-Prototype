@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android = "http://schemas.android.com/apk/res/android">
+
+  <com.sunshinator.ipnosprototype.view.CheckableImageView
+    android:id="@+id/icon"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:layout_gravity="center"/>
+
+  <TextView
+    android:id="@+id/label"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:textAllCaps="true"
+    android:shadowColor="@color/text_shadow"
+    android:shadowRadius="4.0"
+    android:shadowDx="2.0"
+    android:shadowDy="2.0"
+    android:textColor="@color/text_menu_bottom"
+    android:layout_gravity="center" />
+
+</merge>

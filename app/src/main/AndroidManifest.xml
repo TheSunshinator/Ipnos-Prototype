@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android = "http://schemas.android.com/apk/res/android"
-          package = "com.wholesale_express.ipnosprototype">
+          package = "com.sunshinator.ipnosprototype">
 
   <application
     android:allowBackup = "true"
@@ -12,7 +12,7 @@
 
 
       <activity
-        android:name = ".MelodyPlayerActivity"
+        android:name = "com.sunshinator.ipnosprototype.display.MelodyPlayerActivity"
         android:screenOrientation="portrait">
           <intent-filter>
               <action android:name = "android.intent.action.MAIN"/>

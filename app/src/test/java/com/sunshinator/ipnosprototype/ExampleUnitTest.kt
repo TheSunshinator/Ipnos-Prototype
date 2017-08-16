@@ -1,4 +1,4 @@
-package com.wholesale_express.ipnosprototype
+package com.sunshinator.ipnosprototype
 
 import org.junit.Test
 

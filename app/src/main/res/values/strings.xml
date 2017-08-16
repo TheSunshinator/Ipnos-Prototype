@@ -1,3 +1,20 @@
 <resources>
-    <string name = "app_name">Ipnos Prototype</string>
+  <string name = "app_name">Ipnos Prototype</string>
+
+  <string name = "btn_clear">Clear</string>
+  <string name = "btn_play">Play</string>
+  <string name = "btn_pause">Pause</string>
+
+  <string name = "error_media_player">An error occurred, please try again</string>
+  <string name = "error_max_playing_sounds">No more than 3 sounds can be played at the same time</string>
+
+  <string name = "sound_birds">Birds</string>
+  <string name = "sound_flute">Flute</string>
+  <string name = "sound_lounge">Lounge</string>
+  <string name = "sound_musicbox">Music box</string>
+  <string name = "sound_ocean">Ocean</string>
+  <string name = "sound_orchestral">Orchestral</string>
+  <string name = "sound_piano">Piano</string>
+  <string name = "sound_rain">Rain</string>
+  <string name = "sound_wind">Winds</string>
 </resources>
